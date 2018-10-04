@@ -6,6 +6,6 @@ import App from './App';
 
 Enzyme.configure({ adapter: new EnzymeAdapter() });
 
-it('renders without crashing', () => {
-
+test('renders without crashing', () => {
+  
 });
