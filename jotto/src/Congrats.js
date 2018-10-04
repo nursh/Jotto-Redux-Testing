@@ -5,7 +5,7 @@ const Congrats = ({ success }) => {
   const renderMessage = () => {
     if (success) {
       return (
-        <span data-test="congrats-message">
+        <span data-test="congrats-message" className="alert alert-success">
           Congratulations! you guessed the word
         </span>
       );
